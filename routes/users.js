@@ -8,7 +8,7 @@ router.get('/use1', function(req, res, next) {
   res.send('Enumerating objects: 18, done');
 });
 
-app.get('/', (req, res) => {
+router.get('/', (req, res) => {
   // Create an SVG canvas
   const canvas = SVG().size(400, 400);
 
